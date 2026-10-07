@@ -16,7 +16,7 @@ This version preserves the original aesthetic, but includes:
 ## Repository Contents
 
 ```
-build_vsix.py        – Python script that builds a .vsix theme from the YAML config
+build_vsix.py              – Python script that builds a .vsix theme from the YAML config
 OneDarkPro2026Darker.yaml  – Theme configuration with updated color sections
 OneDarkPro2026Darker.png   – Theme icon image for extension tab/marketplace page
 ```
