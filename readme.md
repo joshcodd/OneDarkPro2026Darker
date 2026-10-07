@@ -1,6 +1,6 @@
-## One Dark Pro 2026 - Dark theme for Visual Studio 2026
+## One Dark Pro 2026 Darker - Dark theme for Visual Studio 2026, but darker!
 
-**One Dark Pro 2026** is an updated and corrected adaptation of the popular *One Dark Pro* theme, adjusted specifically for **Visual Studio 2026**.
+**One Dark Pro 2026 Darker** is an updated and corrected adaptation of the popular *One Dark Pro* theme, adjusted specifically for **Visual Studio 2026**, but now darker.
 
 This version preserves the original aesthetic, but includes:
 
@@ -17,8 +17,8 @@ This version preserves the original aesthetic, but includes:
 
 ```
 build_vsix.py        – Python script that builds a .vsix theme from the YAML config
-OneDarkPro2026.yaml  – Theme configuration with updated color sections
-OneDarkPro2026.png   – Theme icon image for extension tab/marketplace page
+OneDarkPro2026Darker.yaml  – Theme configuration with updated color sections
+OneDarkPro2026Darker.png   – Theme icon image for extension tab/marketplace page
 ```
 
 The repository **includes a standalone VS theme build script**, allowing you to:
@@ -43,13 +43,13 @@ pip install pyyaml
 ### 2. Build the theme:
 
 ```sh
-python build_vsix.py -i OneDarkPro2026.yaml -o OneDarkPro2026
+python build_vsix.py -i OneDarkPro2026Darker.yaml -o OneDarkPro2026Darker
 ```
 
 The script produces VS extension (theme):
 
 ```
-OneDarkPro2026.vsix
+OneDarkPro2026Darker.vsix
 ```
 
 ---
@@ -66,13 +66,13 @@ OneDarkPro2026.vsix
 Edit everything inside:
 
 ```
-OneDarkPro2026.yaml
+OneDarkPro2026Darker.yaml
 ```
 
 Then rebuild:
 
 ```sh
-python build_vsix.py -i OneDarkPro2026.yaml -o OneDarkPro2026
+python build_vsix.py -i OneDarkPro2026Darker.yaml -o OneDarkPro2026Darker
 ```
 
 You can modify:
