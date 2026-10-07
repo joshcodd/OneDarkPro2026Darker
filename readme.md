@@ -57,7 +57,6 @@ OneDarkPro2026Darker.vsix
 ## Theme Preview
 
 ![Preview](doc/screenshot-cs.png)
-![Preview](doc/screenshot-cpp.png)
 
 ---
 
